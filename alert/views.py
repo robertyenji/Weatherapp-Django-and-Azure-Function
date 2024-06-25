@@ -3,16 +3,6 @@ from datetime import datetime, date
 import requests
 from collections import defaultdict
 
-
-def hone_view(request):
-    return render(request, 'home.html')
-
-
-from django.shortcuts import render
-from datetime import datetime, date
-import requests
-from collections import defaultdict
-
 def weather_view(request):
     weather_data = None
     city = None
